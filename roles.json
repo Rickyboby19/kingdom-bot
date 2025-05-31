@@ -1,0 +1,150 @@
+{
+  "king": [
+    {
+      "name": "King",
+      "win_condition": "Le roi survit jusqu'à la fin de la partie.",
+      "lose_condition": "Le roi meurt.",
+      "ability": "Pas d'habileté spéciale. Vous êtes la cible principale à protéger ou éliminer selon les camps.",
+      "image": "The King.png"
+    }
+  ],
+  "knight": [
+    {
+      "name": "The Fields Marshal",
+      "win_condition": "Le roi gagne.",
+      "lose_condition": "Le roi est éliminé.",
+      "ability": "S’annonce comme Knight, retire toutes les créatures qui attaquent du combat et les détap. Ensuite, une deuxième phase de combat a lieu où toutes les créatures ont double strike et doivent attaquer. Activable après la déclaration des attaques, avant les bloqueurs.",
+      "image": "the field Marshal.png"
+    },
+    {
+      "name": "The Kingslayer",
+      "win_condition": "Le roi gagne.",
+      "lose_condition": "Le roi est tué par un autre joueur.",
+      "ability": "Vous tuez le roi, annoncez votre rôle. Le roi choisit un autre joueur pour devenir roi. Ce joueur obtient la carte du roi et votre nouvelle défaite est que ce roi meurt.",
+      "image": "the kingslayer.png"
+    },
+    {
+      "name": "The Knight in Shining Armor",
+      "win_condition": "Le roi gagne.",
+      "lose_condition": "Le roi est éliminé.",
+      "ability": "Si le roi subit des dégâts d’un opposant ce tour-ci, ces dégâts sont redirigés vers cet opposant, qui doit sauter sa prochaine phase d’attaque. Activable après la déclaration des attaques.",
+      "image": "the knight in shinning armor.png"
+    },
+    {
+      "name": "The Queen",
+      "win_condition": "Le roi gagne.",
+      "lose_condition": "Le roi meurt.",
+      "ability": "Si le roi devait subir des dégâts létaux ce tour-ci, annoncez votre rôle. Prévenez ces dégâts et il gagne autant de PV que ceux prévenus.",
+      "image": "the Queen.png"
+    },
+    {
+      "name": "The Rightful Heir",
+      "win_condition": "Le roi gagne.",
+      "lose_condition": "Le roi meurt.",
+      "ability": "Si le roi est éliminé, annoncez-vous pour devenir le nouveau roi. Vous gagnez 10 points de vie.",
+      "image": "the Righful heir.png"
+    }
+  ],
+  "assassin": [
+    {
+      "name": "The Bear Trainer",
+      "win_condition": "Le roi meurt.",
+      "ability": "Crée trois ours 2/2 avec haste et : 'T: inflige autant de dégâts que leur puissance à une créature cible'. Si la créature meurt, mettez un marqueur +1/+1 sur l’ours.",
+      "image": "The Bear trainer.png"
+    },
+    {
+      "name": "The Marksman",
+      "win_condition": "Le roi meurt.",
+      "ability": "Toutes les créatures perdent hexproof et shroud ce tour-ci. Inflige des dégâts égaux à votre plus grand coût de mana à jusqu’à 3 créatures.",
+      "image": "the Marksman.png"
+    },
+    {
+      "name": "The Priestess",
+      "win_condition": "Le roi meurt.",
+      "ability": "Échangez vos PV, vos dégâts de commandant et vos compteurs de poison avec ceux d’un joueur ciblé. Activable uniquement durant votre propre tour.",
+      "image": "The Priestess.png"
+    },
+    {
+      "name": "The Schemer",
+      "win_condition": "Le roi meurt.",
+      "ability": "Choisissez 1 : contrôler la phase de combat du roi à son prochain tour, ou ses phases principales. S’annonce uniquement pendant son propre tour.",
+      "image": "The Schemer.png"
+    },
+    {
+      "name": "The Thief",
+      "win_condition": "Le roi meurt.",
+      "ability": "Détapez un permanent ciblé et gagnez-en le contrôle jusqu’à la fin du tour. Il gagne la célérité.",
+      "image": "The Thief.png"
+    }
+  ],
+  "renegade": [
+    {
+      "name": "The Champion",
+      "win_condition": "Le challenger est éliminé.",
+      "ability": "Quand un joueur a 25 PV ou moins, désignez aléatoirement un non-roi avec le plus de PV comme challenger. Scry 1 au début de votre tour.",
+      "image": "The Champion.png"
+    },
+    {
+      "name": "The Cultist",
+      "win_condition": "Plus de la moitié des joueurs sont des cultistes.",
+      "ability": "Si vous éliminez un joueur, vous pouvez l’infecter : il devient cultiste (conserve le rôle de roi si c’était lui), ses compteurs sont remis à zéro, il passe à 10 PV.",
+      "image": "The Cultist.png"
+    },
+    {
+      "name": "The Mimic",
+      "win_condition": "Tous les autres joueurs sont éliminés.",
+      "ability": "Si vous avez 20 PV ou moins, annoncez votre rôle pour piger 2 cartes. Au début de votre tour : 1 joueur gagne 1 PV, un autre en perd 1. Si un joueur a exactement vos PV, il perd la partie.",
+      "image": "The Mimic.png"
+    },
+    {
+      "name": "The Sellsword",
+      "win_condition": "Vous et vos équipiers survivez.",
+      "lose_condition": "Vous ou un équipier meurt.",
+      "ability": "Quand un joueur s’annonce, vous pouvez vous annoncer aussi. Tous les joueurs misent des PV. Le plus gros perd cette vie, sacrifie 25% de ses terrains, et devient votre équipier.",
+      "image": "The Sellsword.jpg"
+    },
+    {
+      "name": "The Straw man",
+      "win_condition": "Vous êtes la première personne éliminée par un autre joueur.",
+      "ability": "Quand vous vous annoncez, toutes les créatures adverses doivent attaquer. Activable uniquement pendant votre tour. Au début de votre prochain tour : nouvelle condition de victoire — vous éliminer vous-même (poison, bibliothèque vide, command damage).",
+      "image": "The Straw man.png"
+    }
+  ],
+  "bandit": [
+    {
+      "name": "The Giant",
+      "win_condition": "Tous les non-bandits sont éliminés.",
+      "lose_condition": "Vous ou un autre bandit est éliminé.",
+      "ability": "S’annonce, choisit la créature avec le plus haut total force+endurance, détruit toutes les autres. Activable pendant votre tour.",
+      "image": "The Giant.png"
+    },
+    {
+      "name": "The Necromancer",
+      "win_condition": "Tous les non-bandits sont éliminés.",
+      "lose_condition": "Vous ou un autre bandit est éliminé.",
+      "ability": "Exile toutes les créatures du cimetière d’un adversaire. S’il est révélé, il fait 2 piles, vous choisissez une à mettre en jeu sous votre contrôle.",
+      "image": "The Necromancer.png"
+    },
+    {
+      "name": "The Stalker",
+      "win_condition": "Tous les non-bandits sont éliminés.",
+      "lose_condition": "Vous ou un autre bandit est éliminé.",
+      "ability": "Exilez un permanent ciblé.",
+      "image": "The Stalker.png"
+    },
+    {
+      "name": "The Wizard",
+      "win_condition": "Tous les non-bandits sont éliminés.",
+      "lose_condition": "Vous ou un autre bandit est éliminé.",
+      "ability": "Choisissez : exilez un sort ciblé OU changez la cible d’un sort ou d’une capacité.",
+      "image": "The Wizard.png"
+    },
+    {
+      "name": "The Zealot",
+      "win_condition": "Tous les non-bandits sont éliminés.",
+      "lose_condition": "Vous ou un autre bandit est éliminé.",
+      "ability": "Tous les joueurs ayant révélé leur rôle révèlent des cartes jusqu’à une créature. Vous mettez ces créatures en jeu sous votre contrôle. Elles ont vigilance, haste et double strike ce tour-ci.",
+      "image": "The Zealot.png"
+    }
+  ]
+}
