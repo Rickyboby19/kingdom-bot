@@ -1,3 +1,6 @@
+from keep_alive import start
+start()
+
 import json
 import random
 import discord
