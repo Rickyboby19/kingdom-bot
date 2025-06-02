@@ -1,6 +1,3 @@
-from keep_alive import start
-start()
-
 import json
 import random
 import discord
@@ -132,4 +129,5 @@ async def reset(ctx):
     await ctx.send("La partie a été réinitialisée.")
 
 # Lancer le bot
-bot.run('MTM3NzgzNDE5MDczMjc5MTkxOQ.GXZTCl.nTWkWalosT_Lu-5Z6dc6cNhJGHJTr4OpEKisUM')
+import os
+bot.run(os.getenv("DISCORD_TOKEN"))
